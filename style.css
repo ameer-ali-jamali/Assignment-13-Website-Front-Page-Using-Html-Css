@@ -1,0 +1,34 @@
+.header {
+    background-color: #364859;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  .search-box{
+    object-fit: contain;
+    width: 90%;
+    height: 100%;
+   margin-left: 5rem;
+    margin-top: 1rem;
+} 
+
+.item2{
+    text-decoration: none;
+  float: right;
+  margin-top: 10px;
+
+}
+#btn-h{
+    text-decoration: none;
+    
+}
+#btn-h:hover{
+background-color: black;
+
+
+background-image: url(/Images/Taj-Mahal.jpg);
+}
