@@ -1,34 +1,82 @@
-.header {
-    background-color: #364859;
-    color: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-  .search-box{
-    object-fit: contain;
-    width: 90%;
-    height: 100%;
-   margin-left: 5rem;
-    margin-top: 1rem;
-} 
-
-.item2{
-    text-decoration: none;
+.grid-nav {
+  display: grid;
+  grid-auto-rows: 32px;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-nav-item {
+  display: grid;
+  justify-content: space-between;
+  gap: 20px;
+}
+.grid-navbar-text{
+  display: grid;
+  grid-auto-rows: 32px;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-img-item2{
+  display: grid;
+  justify-content: space-between;
+  gap: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #f19900;
+}
+.icons{
+  color: white;
+}
+.icons:hover{
+  color: #f19900;
+}
+.h-icons{
+  display: flex;
+ margin: 7px;
+  gap: 16px;
+  margin-left: 1rem;
+}
+.header {
+  background-color: #364859;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.search-box {
+  width: 90%;
+  height: 33px;
+  margin-left: 5rem;
+}
+.item2 {
+  text-decoration: none;
   float: right;
   margin-top: 10px;
-
 }
-#btn-h{
-    text-decoration: none;
-    
+#btn-h {
+  text-decoration: none;
 }
-#btn-h:hover{
-background-color: black;
-
-
-background-image: url(/Images/Taj-Mahal.jpg);
+#btn-h:hover {
+  background-color: black;
+}
+body {
+  background-color: #a99898;
+}
+.grid-img {
+  display: grid;
+  grid-auto-rows: 334px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-img-item {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 109px;
 }
