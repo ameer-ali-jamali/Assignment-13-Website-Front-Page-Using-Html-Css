@@ -82,6 +82,7 @@ a:hover {
 #btn-h:hover {
   background-color: black;
 }
+
 .grid-img {
   display: grid;
   grid-auto-rows: 334px;
