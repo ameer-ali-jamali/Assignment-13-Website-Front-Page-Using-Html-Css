@@ -2,15 +2,23 @@
   padding: 0;
   margin: 0;
 }
+body{
+background-color:  #232f3e;
+}
+.float-btn{
+float: right;
+}
 .grid-nav1{
   display: grid;
   grid-auto-rows: 35px;
-  grid-template-columns: 1fr 3fr 0fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-nav2{
   display: grid;
-  grid-auto-rows: 35px;
-  grid-template-columns: 1fr 3fr 0fr;
+grid-auto-rows: 100px;
+grid-template-columns: 1fr;
+margin-left: 20%;
+  
 }
 
 a{
@@ -56,9 +64,6 @@ a:hover{
 }
 #btn-h:hover {
   background-color: black;
-}
-body {
-  background-color: #a99898;
 }
 .grid-img {
   display: grid;
