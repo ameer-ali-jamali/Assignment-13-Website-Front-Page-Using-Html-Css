@@ -35,7 +35,11 @@ html{
 .img-logo{
 width: 120px;
 }
-
+element.style {
+  display: flex;
+  color: black;
+  justify-content: center;
+}
 a {
   color: white;
   text-decoration: none;
@@ -59,7 +63,6 @@ a:hover {
 .search-box {
   width: 1063px;
   height: 33px;
-  /* margin-left: 5rem; */
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -143,13 +146,7 @@ justify-content: center;
 }
 .flex-nav-item3{
   margin-right: 14px;
-  
 }
-.flex-nav-item4{
-  margin-right: 14px;
-  
-}
-
 
 
 
