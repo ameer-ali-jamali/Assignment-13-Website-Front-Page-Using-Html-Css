@@ -14,9 +14,16 @@
   color: #f19900;
 }
 .nav-container {
+  /* background-color: #232f3e;
+  height: 21%;
+  max-height: 21%; */
   background-color: #232f3e;
   height: 21%;
   max-height: 21%;
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+  width: 1349px;
 }
 .nav-item {
   display: grid;
@@ -24,11 +31,8 @@
 }
 .nav-icons {
   display: flex;
-  margin: 7px;
-  height: 23px;
   gap: 16px;
   margin-left: 1rem;
-  font-size: 18px;
   margin-top: 10px;
 }
 .nav-item2 {
@@ -47,7 +51,7 @@
   margin-top: 11px;
 }
 .nav-item5 {
-  margin-right: 14px;
+  margin-right: 34px;
 }
 .search-box-container {
   display: flex;
@@ -65,7 +69,7 @@
   margin-left: 22px;
 }
 #search-box-item2 {
-  padding: 15px 12px 11px 13px;
+  padding: 12px 13px 12px 15px;
 }
 .logo {
   width: 120px;
@@ -74,7 +78,7 @@
   padding: 16px;
 }
 .offfer-btn {
-  position: absolute;
+height: 78px;
   margin-top: 11px;
 }
 @keyframes pulse {
@@ -105,12 +109,13 @@
   position: relative;
 }
 .img-grid-container {
-  display: grid;
-  grid-auto-rows: 341px;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1349px;
+  max-width: 1349px;
 }
+
 .img-grid-item {
   object-fit: cover;
   max-width: 100%;
@@ -180,18 +185,4 @@ img:hover {
   text-align: center;
   color: black;
   margin-top: 89px;
-}
-html {
-  display: flex;
-  justify-content: center;
-}
-@media (min-width: 200px) and (max-width: 400px) {
-}
-@media (min-width: 400px) and (max-width: 600px) {
-}
-@media (min-width: 600px) and (max-width: 700px) {
-}
-@media (min-width: 700px) and (max-width: 900px) {
-}
-@media (min-width: 900px) and (max-width: 1100px) {
 }
