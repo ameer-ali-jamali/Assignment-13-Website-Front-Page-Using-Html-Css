@@ -13,7 +13,7 @@
 .head-item1 {
   color: #f19900;
 }
-.nav-container{
+.nav-container {
   background-color: #232f3e;
   height: 21%;
   max-height: 21%;
@@ -104,20 +104,20 @@
   margin-top: -16px;
   position: relative;
 }
-.img-grid-container{
+.img-grid-container {
   display: grid;
   grid-auto-rows: 341px;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
   max-width: 100%;
 }
-.img-grid-item{
+.img-grid-item {
   object-fit: cover;
   max-width: 100%;
   width: 100%;
-  margin-top: 44px;
+  margin-top: 18px;
 }
-.products-container{
+.products-container {
   display: grid;
   grid-auto-rows: 324px;
   grid-template-columns: repeat(6, 1fr);
@@ -125,16 +125,16 @@
   text-align: center;
   padding-top: 41px;
 }
-.pts-item> img:hover {
+.pts-item > img:hover {
   cursor: pointer;
 }
-.pts-item1{
+.pts-item1 {
   color: #146eb4;
   /* font-family: Roboto,sans-serif; */
   font-size: 17px;
   font-weight: 300;
 }
-.pts-item2{
+.pts-item2 {
   display: flex;
   color: black;
   justify-content: center;
@@ -155,60 +155,19 @@ a:hover {
 img:hover {
   cursor: pointer;
 }
-
-html {
-  display: flex;
-  justify-content: center;
-}
-
-/* .nav-item20 {
-  display: flex;
-  justify-content: center;
-  margin-top: 89px;
-  gap: 24px;
-} */
-/* .fa-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -16%;
-} */
-.nav-item11 {
-  display: flex;
-  justify-content: center;
-  gap: 35px;
-  height: 90px;
-  max-height: 90px;
-}
-.search-right {
+.s-box-item {
   padding: 10px;
   background: #f19900;
   color: black;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.search-icon {
+.s-box-item1 {
   margin-left: -7px;
 }
-.search-right:hover {
+.s-box-item:hover {
   background: #e68a00;
 }
-.item2 {
-  text-decoration: none;
-  float: right;
-  margin-top: 10px;
-}
-#btn-h {
-  text-decoration: none;
-}
-#btn-h:hover {
-  background-color: black;
-}
-img:hover {
-  transform: scaleZ(1.5);
-}
-
-
-
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -217,25 +176,22 @@ img:hover {
   padding-bottom: 14px;
   padding-right: 15px;
 }
-
-
-.nav-item4 {
-  display: grid;
-  grid-auto-rows: 100px;
-  grid-template-columns: repeat(1fr, 10);
-}
-
-
-h1 {
+.h-item-1 {
   text-align: center;
   color: black;
   margin-top: 89px;
 }
-.img-sub-item1 {
+html {
   display: flex;
   justify-content: center;
 }
-
-
-@media (min-width: 400px) and (max-width: 700px) {
+@media (min-width: 200px) and (max-width: 400px) {
+}
+@media (min-width: 400px) and (max-width: 600px) {
+}
+@media (min-width: 600px) and (max-width: 700px) {
+}
+@media (min-width: 700px) and (max-width: 900px) {
+}
+@media (min-width: 900px) and (max-width: 1100px) {
 }
