@@ -1,3 +1,3 @@
 # Assignment-13-Website-Front-Page-Using-Html-Css
-must be responsive .
-using css grid layout & flex box .
+Must be like a shooping website and responsive .
+using css grid layout & flex box & etc.
